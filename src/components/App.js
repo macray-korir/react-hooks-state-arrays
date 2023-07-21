@@ -1,13 +1,13 @@
 import React from "react";
 import SpicyFoodList from "./SpicyFoodList";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h3>SpicyFoodList</h3>
+      <h1>Spicy Food List</h1>
       <SpicyFoodList />
     </div>
   );
-}
+};
 
 export default App;
